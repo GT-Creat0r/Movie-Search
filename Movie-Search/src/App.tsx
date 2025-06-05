@@ -1,11 +1,11 @@
-function App() {
-  const url="http://www.omdbapi.com/?apikey=98eda98d&";
-return (
-<div>
-  <h1>Movie Search App</h1>
-</div>
+import HomePage from "./pages/HomePage";
 
-);
-}
+const App = () => {
+  return (
+    <>
+      <HomePage/>
+    </>
+  );
+};
 
 export default App;
